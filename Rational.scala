@@ -1,3 +1,4 @@
 class Rational(n: Int, d: Int) {
-  override def toString = n + "/" + d 
+  require(d !=0)
+  override def toString = n + "/" + d
 }
